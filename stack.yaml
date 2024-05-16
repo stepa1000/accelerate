@@ -2,7 +2,9 @@
 # For advanced use and comprehensive documentation of the format, please see:
 # https://docs.haskellstack.org/en/stable/yaml_configuration/
 
-resolver: lts-21.4
+resolver: nightly-2024-05-15
+
+allow-newer: true
 
 packages:
 - .
